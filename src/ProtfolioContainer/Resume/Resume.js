@@ -1,6 +1,5 @@
 import React from "react";
 import "./Resume.css";
-import education from "../../assets/Resume/education.svg";
 
 export default function Resume() {
   return (
@@ -33,7 +32,7 @@ export default function Resume() {
                     src="Resume-img/work-history.svg"
                     alt="logo"
                   />
-                  <span className="bullet-label">Education</span>
+                  <span className="bullet-label">Wrok History</span>
                 </div>
                 <div className="bullet">
                   <img
@@ -41,7 +40,7 @@ export default function Resume() {
                     src="Resume-img/programming-skills.svg"
                     alt="logo"
                   />
-                  <span className="bullet-label">Education</span>
+                  <span className="bullet-label">Programming Skills</span>
                 </div>
                 <div className="bullet">
                   <img
@@ -49,7 +48,7 @@ export default function Resume() {
                     src="Resume-img/projects.svg"
                     alt="logo"
                   />
-                  <span className="bullet-label">Education</span>
+                  <span className="bullet-label">Projects</span>
                 </div>
                 <div className="bullet showBulletpng">
                   <img
@@ -57,7 +56,7 @@ export default function Resume() {
                     src="Resume-img/interests.svg"
                     alt="logo"
                   />
-                  <span className="bullet-label">Education</span>
+                  <span className="bullet-label">Interest</span>
                 </div>
               </div>
             </div>
@@ -119,18 +118,25 @@ export default function Resume() {
                   </div>
                   <div className="experience-discription">
                     <span className="resume-discription-text">
-                      " currently working as mern stake web and mobile"
+                      Currently working as Interactive and Simulation Developer
+                      with Unity VR
                     </span>
                   </div>
-                  <div className="experience-discription">
+                  <div className="experience-discription points">
                     <span className="resume-discription-text">
-                      " -currently working as mern stake web and mobile"
+                      -create VR Interactive Home.
                     </span>
                     <span className="resume-discription-text">
-                      " -currently working as mern stake web and mobile"
+                      -Implement the interion for the VR/PC/Mobile version with
+                      HDRP and URP.
                     </span>
                     <span className="resume-discription-text">
-                      " -currently working as mern stake web and mobile"
+                      -Develop realstic feature on Oculus Quest-2 VR Enviroment
+                      for Interior home.
+                    </span>
+                    <span className="resume-discription-text">
+                      -Develop the light feataure on the projects for
+                      VR/PC/Mobile.
                     </span>
                   </div>
                 </div>
@@ -138,45 +144,64 @@ export default function Resume() {
               {/* end work history */}
               {/* programming skills */}
               <div className="resume-screen-container">
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
-                </div>
-                <div className="skill-parent">
-                  <div className="heading-bullet"></div>
-                  <span>University of Rajshahi</span>
-                  <div className="skill-percentage">100000000%</div>
+                <div className="programming-parent">
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>Javascript</span>
+                    <div className="skill-percentage">
+                      <div className="js"></div>
+                    </div>
+                  </div>
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>HTML</span>
+                    <div className="skill-percentage">
+                      <div className="html"></div>
+                    </div>
+                  </div>
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>CSS</span>
+                    <div className="skill-percentage">
+                      <div className="css"></div>
+                    </div>
+                  </div>
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>React JS</span>
+                    <div className="skill-percentage">
+                      <div className="react-js"></div>
+                    </div>
+                  </div>
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>MySQL</span>
+                    <div className="skill-percentage">
+                      <div className="mysql"></div>
+                    </div>
+                  </div>
+
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>C</span>
+                    <div className="skill-percentage">
+                      <div className="c"></div>
+                    </div>
+                  </div>
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>C++</span>
+                    <div className="skill-percentage ">
+                      <div className="cpp"></div>
+                    </div>
+                  </div>
+                  <div className="skill-parent">
+                    <div className="heading-bullet"></div>
+                    <span>Java</span>
+                    <div className="skill-percentage">
+                      <div className="java"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
               {/* end skills */}
@@ -185,44 +210,70 @@ export default function Resume() {
                 <div className="resume-heading">
                   <div className="resume-main-heading">
                     <div className="heading-bullet"></div>
-                    <span>University of Rajshahi</span>
-                    <div className="heading-date">2016-2020</div>
+                    <span>Personal Portfolio Website</span>
+                    <div className="heading-date">2022-2022</div>
                   </div>
                   <div className="resume-sub-heading">
-                    <span>
-                      bachelor of science computer science and Engineering
-                    </span>
+                    <span>Technologies used: React JS, Bootstrap</span>
+                    <div className="sort-discription">
+                      A Personal portfolio website to showcase all my details
+                      mad projects at one place.
+                    </div>
                   </div>
                 </div>
                 <div className="resume-heading">
                   <div className="resume-main-heading">
                     <div className="heading-bullet"></div>
-                    <span>University of Rajshahi</span>
-                    <div className="heading-date">2016-2020</div>
+                    <span>
+                      <a
+                        target="_blank"
+                        className="link"
+                        href="https://vanilla-js-shopping-cart-labbiahmed.netlify.app/"
+                      >
+                        E-commarce Shopping-cart
+                      </a>
+                    </span>
+                    <div className="heading-date">2022-2022</div>
                   </div>
                   <div className="resume-sub-heading">
                     <span>
-                      bachelor of science computer science and Engineering
+                      Technologies used: HTML, Custom-CSS, Venilla-js,
+                      contentful
                     </span>
+                    <div className="sort-discription">
+                      A E-commarce shopping-cart with the functionalites: add,
+                      remove, incremetn, decrement, clearAll. use local storage
+                      and contentful server to stor data
+                    </div>
                   </div>
                 </div>
                 <div className="resume-heading">
                   <div className="resume-main-heading">
                     <div className="heading-bullet"></div>
-                    <span>University of Rajshahi</span>
-                    <div className="heading-date">2016-2020</div>
+                    <a
+                      target="_blank"
+                      className="link"
+                      href="https://real-estate-website-labbiahmed.netlify.app/"
+                    >
+                      Real Estate Website
+                    </a>
+                    <div className="heading-date">2022-2022</div>
                   </div>
                   <div className="resume-sub-heading">
                     <span>
-                      bachelor of science computer science and Engineering
+                      Technologies used: HTML, Custom-CSS, Venilla-js,
+                      contentful
                     </span>
+                    <div className="sort-discription">
+                      A real estate demo website making just for practice
+                    </div>
                   </div>
                 </div>
               </div>
               {/* end projects */}
               {/* Interest */}
               <div className="resume-screen-container">
-                <div className="resume-heading">
+                {/* <div className="resume-heading">
                   <div className="resume-main-heading">
                     <div className="heading-bullet"></div>
                     <span>University of Rajshahi</span>
@@ -257,7 +308,7 @@ export default function Resume() {
                       bachelor of science computer science and Engineering
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
               {/* end interest */}
             </div>

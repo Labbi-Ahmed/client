@@ -1,5 +1,6 @@
 .resume-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 600px;
@@ -7,10 +8,12 @@
 }
 
 .resume-content {
-  background-color: white;
   display: flex;
   flex-direction: column;
-  max-width: 1100px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
 }
 
 .resume-card {
@@ -71,7 +74,7 @@
 }
 
 .bullet-label {
-  font-size: 16px;
+  font-size: 18px;
   white-space: nowrap;
   padding-left: 2rem;
   font-weight: bold;
@@ -79,7 +82,7 @@
 }
 .resume-bullet-details {
   height: 100%;
-  width: 60%;
+  width: 100%;
   padding-left: 80px;
   overflow: auto;
 }
@@ -95,6 +98,7 @@
   justify-content: space-evenly;
   height: 400px;
   width: 100%;
+  margin: 2px 0;
 }
 
 .resume-heading {
@@ -133,11 +137,62 @@
 
 .resume-sub-heading {
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 /* experience container */
 .experience-container {
-  height: 70%;
+  height: 80%;
   width: 100%;
-  background-color: lightblue;
+}
+
+.experience-discription {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.points {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  justify-content: space-evenly;
+  height: 170px;
+}
+.programming-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 95%;
+}
+.skill-parent {
+  width: 45%;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #cf7200;
+}
+.skill-percentage {
+  position: relative;
+  width: 70%;
+  height: 1rem;
+  background-color: #cf7200;
+}
+
+.skill-percentage div {
+  width: 90%;
+  height: inherit;
+  background-color: rgb(39, 37, 37);
+  position: absolute;
+  z-index: 2;
+}
+
+.sort-discription {
+  font-size: 0.8rem;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link,
+.link:active,
+.link:visited {
+  color: #e1820e;
 }
