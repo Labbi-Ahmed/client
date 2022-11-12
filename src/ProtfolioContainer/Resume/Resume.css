@@ -1,0 +1,143 @@
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  margin: 80px 0;
+}
+
+.resume-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+}
+
+.resume-card {
+  display: flex;
+  height: 400px;
+}
+.resume-bullets {
+  width: 320px;
+  height: 100%;
+  box-shadow: 5px 0 3px -2px #888;
+}
+.bullets-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.bullet-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.6rem;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.bullets {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  z-index: 2;
+  width: 80%;
+}
+.bullet {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(11, 10, 10);
+  color: #111;
+  border-radius: 20px;
+  margin: 8px;
+  height: 40px;
+  width: 30px;
+  transition: width 0.6s ease;
+}
+/* just testing */
+.bullet:hover {
+  width: 100%;
+  color: white;
+}
+.showBulletpng {
+  width: 100%;
+  color: white;
+}
+.bullet-logo {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.bullet-label {
+  font-size: 16px;
+  white-space: nowrap;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-family: "Poppens SemiBold";
+}
+.resume-bullet-details {
+  height: 100%;
+  width: 60%;
+  padding-left: 80px;
+  overflow: auto;
+}
+
+/* resume details carousal */
+.show-content {
+  transform: translateY(0px);
+}
+
+.resume-screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 100%;
+}
+
+.resume-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.resume-main-heading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: bold;
+  color: darkorange;
+}
+
+.heading-bullet {
+  position: absolute;
+  left: -30px;
+  width: 1rem;
+  height: 1rem;
+  background-color: darkorange;
+  border-radius: 20px;
+}
+
+.heading-date {
+  background-color: darkorange;
+  color: white;
+  border-radius: 14px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.resume-sub-heading {
+  font-weight: bold;
+}
+
+/* experience container */
+.experience-container {
+  height: 70%;
+  width: 100%;
+  background-color: lightblue;
+}

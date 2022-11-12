@@ -35,19 +35,19 @@ export default function AboutMe() {
               </div>
               <div className="highlight">
                 <div className="highlight-bolb"></div>
-                <span>your skill slhow here in a headlign</span>
+                <span>Front end web developer</span>
               </div>
               <div className="highlight">
                 <div className="highlight-bolb"></div>
-                <span>your skill slhow here in a headlign</span>
+                <span>React </span>
               </div>
               <div className="highlight">
                 <div className="highlight-bolb"></div>
-                <span>your skill slhow here in a headlign</span>
+                <span>Unity 3d </span>
               </div>
               <div className="highlight">
                 <div className="highlight-bolb"></div>
-                <span>your skill slhow here in a headlign</span>
+                <span>Oculus Quest VR in Unity</span>
               </div>
               <div className="highlight">
                 <div className="highlight-bolb"></div>
