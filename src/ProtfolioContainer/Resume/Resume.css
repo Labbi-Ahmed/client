@@ -59,12 +59,8 @@
   width: 30px;
   transition: width 0.6s ease;
 }
-/* just testing */
-.bullet:hover {
-  width: 100%;
-  color: white;
-}
-.showBulletpng {
+
+.showBullet {
   width: 100%;
   color: white;
 }
@@ -195,4 +191,42 @@
 .link:active,
 .link:visited {
   color: #e1820e;
+}
+
+@media screen and (max-width: 1110px) {
+  .resume-card {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .resume-card {
+    flex-direction: column;
+    height: 820px;
+  }
+  .resume-bullets {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 360px;
+  }
+  .resume-bullet-details {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .resume-bullet-details {
+    height: 400px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .resume-screen-container {
+    background-color: antiquewhite;
+    justify-content: space-around;
+  }
+  .programming-parent {
+    justify-content: space-around;
+    height: 80%;
+  }
 }

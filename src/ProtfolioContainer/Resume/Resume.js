@@ -1,6 +1,15 @@
 import React from "react";
 import "./Resume.css";
 
+// const bullets = document.querySelectorAll(".bullet");
+// const bulletsA = [...bullets];
+// // console.log(bulletsA);
+// bulletsA.forEach((bullet) => {
+//   bullet.addEventListener("click", (e) => {
+//     console.log(e.currentTarget.classList);
+//   });
+// });
+
 export default function Resume() {
   return (
     <div className="resume-container">
@@ -50,7 +59,7 @@ export default function Resume() {
                   />
                   <span className="bullet-label">Projects</span>
                 </div>
-                <div className="bullet showBulletpng">
+                <div className="bullet showBullet">
                   <img
                     className="bullet-logo"
                     src="Resume-img/interests.svg"
