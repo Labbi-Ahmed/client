@@ -1,0 +1,67 @@
+:root {
+  --radiur: 70px;
+}
+.review-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  margin: 0 auto 100px;
+  border-top-left-radius: var(--radiur);
+  border-top-right-radius: var(--radiur);
+  border-bottom-right-radius: var(--radiur);
+  transition: 0.3s ease-out;
+  min-width: 400px;
+}
+
+.review-parent {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-text {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-style: italic;
+}
+
+.review-stars {
+  display: flex;
+}
+
+.review-profile {
+  display: flex;
+  align-items: center;
+}
+.review-container:hover {
+  transform: scale(1.1);
+}
+
+.review-profile-image {
+  height: 81px;
+  width: 81px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.profile-info {
+  display: block;
+  padding-left: 10px;
+}
+
+.profile-info .profile-title {
+  font-size: 0.8rem;
+  font-style: italic;
+}
